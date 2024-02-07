@@ -11,6 +11,10 @@ conda config --add channels bioconda
 echo "options(BioC_mirror='https://mirrors.tuna.tsinghua.edu.cn/bioconductor')" >> ~/.Rprofile
 echo "options('repos' = c(CRAN='https://mirrors.tuna.tsinghua.edu.cn/CRAN/'))" >> ~/.Rprofile
 
+conda install -y -c conda-forge r-fitdistrplus
+conda install -y -c conda-forge r-ggridges
+conda install -y -c conda-forge r-tidyverse
+conda install -y -c conda-forge r-magick
 conda install -y -c conda-forge imagemagick
 conda install -y -c conda-forge r-curl
 conda install -y -c conda-forge r-biocmanager
