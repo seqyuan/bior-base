@@ -1,3 +1,6 @@
+packageVersion('r-ggridges')
+packageVersion('r-tidyverse')
+packageVersion('r-magick')
 packageVersion('r-curl')
 packageVersion('biocmanager')
 packageVersion('deseq2')
