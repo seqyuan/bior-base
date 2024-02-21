@@ -60,3 +60,5 @@ conda install -y -c r r-ggiraphextra
 conda install -y -c r r-argparse
 conda install -y -c r r-gridextrae
 conda install -y -c conda-forge r-cairo
+conda install -y -c conda-forge r-getopt
+
