@@ -57,6 +57,6 @@ conda install -y -c bioconda bioconductor-dirichletmultinomial
 conda install -y -c bioconda r-htmltools=0.5.7
 conda install -y -c conda-forge r-ggiraph
 conda install -y -c r r-ggiraphextra
-conda install -y -c r r-argpars
+conda install -y -c r r-argparse
 conda install -y -c r r-gridextrae
 conda install -y -c conda-forge r-cairo
