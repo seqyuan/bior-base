@@ -16,6 +16,8 @@ RUN apt-get update && \
 		libcurl4-openssl-dev \
 		libhdf5-dev \
 		libudunits2-dev \
+		language-pack-zh-hans \
+		locales \
 		imagemagick && \
 		if [ -e /bin/sh ];then rm /bin/sh ; fi && \
 		if [ -e /bin/bash ];then ln -s /bin/bash /bin/sh ; fi
