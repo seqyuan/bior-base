@@ -8,8 +8,8 @@ conda config --add channels bioconda
 #conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 #conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 
-echo "options(BioC_mirror='https://mirrors.tuna.tsinghua.edu.cn/bioconductor')" >> ~/.Rprofile
-echo "options('repos' = c(CRAN='https://mirrors.tuna.tsinghua.edu.cn/CRAN/'))" >> ~/.Rprofile
+#echo "options(BioC_mirror='https://mirrors.tuna.tsinghua.edu.cn/bioconductor')" >> ~/.Rprofile
+#echo "options('repos' = c(CRAN='https://mirrors.tuna.tsinghua.edu.cn/CRAN/'))" >> ~/.Rprofile
 
 conda install -y -c conda-forge r-fitdistrplus
 conda install -y -c conda-forge r-ggridges
