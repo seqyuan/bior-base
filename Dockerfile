@@ -20,8 +20,7 @@ RUN apt-get update && \
 		if [ -e /bin/sh ];then rm /bin/sh ; fi && \
 		if [ -e /bin/bash ];then ln -s /bin/bash /bin/sh ; fi
 
-RUN conda install r-base=4.3.1
-
+RUN conda install r-base=4.3.1 && sudo localedef -i en_US -f UTF-8 en_US.UTF-8
 #ADD install_cmd.R /tmp/
 ADD add_mirror.sh /tmp/
 
