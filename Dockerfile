@@ -19,12 +19,12 @@ RUN apt-get update && \
 		locales \
 		imagemagick && \
 		if [ -e /bin/sh ];then rm /bin/sh ; fi && \
-		if [ -e /bin/bash ];then ln -s /bin/bash /bin/sh ; fi \
-		echo "LC_ALL=en_US.UTF-8" >> /etc/environment \
-		echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
-		echo "LANG=en_US.UTF-8" > /etc/locale.conf
-
-RUN locale-gen en_US.UTF-8
+		if [ -e /bin/bash ];then ln -s /bin/bash /bin/sh ; fi && \
+		echo "LC_ALL=en_US.UTF-8" >> /etc/environment && \
+		echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen && \
+		echo "LANG=en_US.UTF-8" > /etc/locale.conf && \
+		locale-gen en_US.UTF-8
+		
 RUN conda install r-base=4.3.1
 #ADD install_cmd.R /tmp/
 ADD add_mirror.sh /tmp/
