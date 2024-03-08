@@ -50,7 +50,7 @@ conda install -y -c bioconda bioconductor-limma
 conda install -y -c bioconda bioconductor-gsva
 conda install -y -c bioconda bioconductor-complexheatmap
 conda install -y -c bioconda bioconductor-clusterprofiler
-conda install -y -c bioconda bioconductor-ucell
+#conda install -y -c bioconda bioconductor-ucell
 conda install -y -c bioconda bioconductor-aucell
 conda install -y -c bioconda bioconductor-tfbstools
 conda install -y -c bioconda bioconductor-dirichletmultinomial
